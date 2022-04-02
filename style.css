@@ -51,3 +51,8 @@ table{
  tr, td, th{
     border: 2px solid purple;
 }
+
+input#comments{
+    width: 400px;
+    height: 200px;
+}
