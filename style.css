@@ -1,3 +1,120 @@
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+*{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+/******************************************
+/* OBJECTS
+/*******************************************/
+.header-style{
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+/******************************************
+/* COMPONENTS
+/*******************************************/
+
+.navbar-ul-style{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar-li-style{
+    padding: 0 10px;
+}
+
+.social-icons{
+    margin: 0 10px;
+}
+
+.main-header{
+    text-align: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-header-child{
+    margin: 10px;
+}
+
+.profile-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portrait{
+    width: 150%;
+    border-radius: 50%;
+    border: 5px dotted black;
+}
+
+.biography > aside,
+.biography > section{
+    width: 32%;
+    padding: 5%;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    position: fixed;
+    right: 2%;
+}
+
+/******************************************
+/* STATE
+/*******************************************/
+a:hover{
+    color: grey;
+}
+i:hover{
+    color: grey;    
+}
+a:visited{
+    color: grey;
+}
+i:visited{
+    color: grey;
+}
+a:link{
+    color: black;
+}
+i:link{
+    color: black;    
+}
+a:active{
+    color: pink;
+}
+i:active{
+    color: pink;
+}
+
+/******************************************
+/* THEMES
+/*******************************************/
+
+
+
+/******************************************
+/* UTILITIES
+/*******************************************/
 /* Box Model Hack */
 * {
     box-sizing: border-box;
@@ -17,42 +134,16 @@
    clear: both;
 }
 
+.flexbox-container{
+    display: flex;
+}
+
+.indent-right{
+    text-align: right;
+}
+
+
 /******************************************
-/* BASE STYLES
+/* JAVASCRIPT HOOKS
 /*******************************************/
 
-
-* {
-    list-style-type: none;
-    text-decoration: none;
-}
-
-
-body {
-    background-color: pink;
-}
-
-img {
-    width: 500px;
-    height: auto;
-}
-
-nav ul{
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-}
-
-table{
-    border: 2px solid purple;
-}
-
- tr, td, th{
-    border: 2px solid purple;
-}
-
-input#comments{
-    width: 400px;
-    height: 200px;
-}

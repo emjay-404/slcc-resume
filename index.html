@@ -5,93 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Resume</title>
+    <!-- Social Media Icon Library -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Google Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Square+Peg&display=swap" rel="stylesheet">    <title>Emma Juvenal Web Design</title>
 </head>
 <body>
-    <header>
+    <header class="flexbox-container header-style">
         <nav>
-            <ul>
-                <li> <a href="index.html">Home</a></li>
-                <li> <a href="portfolio.html">Portfolio</a></li>
-                <li> <a href="about.html">About</a></li>
-            </ul>
-        </nav>
-        <h1>Emma Juvenal</h1>
+            <ul class="navbar-ul-style">
+                <li class="navbar-li-style"> <a href="about.html">ABOUT</a></li>
+                <li class="navbar-li-style"> <a href="portfolio.html">PORTFOLIO</a></li>
+                <li class="navbar-li-style"> <a href="contact.html">CONTACT</a></li>
+            </ul>    
+        </nav>  
+        <!-- <img src="#"> -->
+        <div class="social">
+            <a target="_blank" href="#"><i class="fa fa-github social-icons"></i></a>
+            <a target="_blank" href="#"><i class="fa fa-twitter social-icons"></i></a>
+            <a target="_blank" href="#"><i class="fa fa-linkedin social-icons"></i></a>
+        </div>
     </header>
-    <section>
-        <h2>Biography</h2>
-        <p>I’m a specimen processing technician with two years of laboratory experience,<br>
-            switching careers into web development! I’ve developed an interest in web development<br>
-            because I love learning how the internet works and how to bring businesses to life<br>
-            online! In my spare time I love to powerlift and explore local coffee shops.</p>
+    <section class="main-header">
+        <h1 class="main-header-child">Emma Juvenal</h1>
+        <h1 class="main-header-child">Web Developer</h1>
+        <h1 class="main-header-child">Based in Salt Lake City</h1>
     </section>
-    <section>
-        <h2>Experience</h2>
-        <section class="work-experience">
-            <h3>ARUP, Salt Lake City, UT — Specimen Processor</h3>
-            <ul>
-                <li>Opened and prepared shipments for processing</li>
-                <li>Processed over 30 specimens an hour </li>
-                <li>Handled specimen documentation for correct labeling and scanning</li>
-                <li>Able to perform backup PST responsibilities such as answering questions, 
-                    reroutes, overrides, and not-ins</li>
-            </ul>
+    <main class="flexbox-container biography">
+        <aside>
+            <h3>Biography</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, et?</p>
+            <h3>Biography</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, et?</p>
+            <h3>Biography</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, et?</p>
+        </aside>
+        <section class="profile-image-container">
+            <img class="portrait" src="images/portrait2.jpeg">
         </section>
-        <section class="work-experience">
-            <h3>ARUP, Salt Lake City, UT — Manifestor</h3>
-            <ul>
-                <li>Received, scanned, and prepared shipments to be distributed to processors</li>
-                <li>Coordinated with team members to determine best methods of handling shipments</li>
-                <li>Corrected shipment errors in Shipment Tracking</li>
-                <li>Organized and printed data using Excel to manifest short stability specimens</li>
-            </ul>
-        </section>
-        <section class="work-experience">
-            <h3>Discover, West Valley City, UT — Credit Card Debt Specialist</h3>
-            <ul>
-                <li>Responsible for performing collection activities on receivables</li>
-                <li>Communicated  with customers in regards to payments on their credit card</li>
-                <li>Collaborated with customers on repayment plans that met their needs</li>
-            </ul>
-        </section>
+        <aside class="indent-right">
+            <h3>Biography</h3>
+            <span>100%</span>
+            <h3>Biography</h3>
+            <span>100%</span>
+            <h3>Biography</h3>
+            <span>100%</span>
+
+        </aside>
+    </main>
+    <section>
+        <p>This is filler text. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Consequuntur enim quia perspiciatis pariatur! Natus quos 
+            fuga pariatur sed amet dignissimos!Lorem ipsum dolor sit 
+            amet, consectetur adipisicing elit. Consectetur pariatur 
+            natus laudantium iusto qui totam culpa, numquam eius alias 
+            provident voluptas necessitatibus blanditiis amet impedit 
+            possimus, repellat et ducimus tempore.</p>
     </section>
     <section>
-        <h2>Education</h2>
-        <ul>
-            <li>Salt Lake Community College</li>
-        </ul>
+
     </section>
-    <section>
-        <h2>References</h2>
-        <ol>
-            <li>Zack</li>
-            <li>Morgan</li>
-        </ol>
-    </section>
-    <aside>
-        <h2>Contact me!</h2>
-        <form>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <h3>Choose your favorite color:</h3>
-            <input type="radio" id="red" name="red" value="Red">
-            <label for="red">Red</label><br>
-            <input type="radio" id="orange" name="red" value="Red">
-            <label for="red">Orange</label><br>
-            <input type="radio" id="yellow" name="red" value="Red">
-            <label for="red">Yellow</label><br>
-            <input type="radio" id="green" name="red" value="Red">
-            <label for="red">Green</label><br>
-            <input type="radio" id="blue" name="red" value="Red">
-            <label for="red">Blue</label><br>
-            <input type="radio" id="purple" name="red" value="Red">
-            <label for="red">Purple</label><br><br>
-            <label for="comments">Comments:</label><br><br>
-            <input type="text" id="comments" name="comments"><br>
-            <input type="submit" value="Submit">
-        </form>
-    </aside>
+    <footer>
+        
+    </footer>
 </body>
 </html>
